@@ -88,9 +88,16 @@ h1 {
   cursor: pointer;
 }
 
+.edit-bin{
+  display: flex;
+  align-items: center;
+}
+
 .edit-icon,
 .delete-icon {
   cursor: pointer;
+  width: 20px;
+  margin-right: 10px;
 }
 
 @media screen and (max-width: 412px){ 
